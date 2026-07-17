@@ -1,5 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
+st.write(genai.__version__)
 import tempfile
 import os
 
